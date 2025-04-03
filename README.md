@@ -1,14 +1,23 @@
-# phishing url detector
-Cybersecurity tool for [add description].
+# Phishing URL Detector
+
+## Overview
+The Phishing URL Detector is a Python tool that analyzes URLs for phishing indicators based on length, suspicious characters, and domain structure. It assigns a suspicion score using heuristic rules.
+
+## Author
+Rick Hayes
+
+## License
+MIT
+
+## Version
+2.73
 
 ## Requirements
 - Python 3.x
-
+- No additional libraries beyond the Python standard library
 
 ## Usage
-```bash
-python phishing_url_detector.py --help
-```
+Run the script with the following arguments:
 
-## Configuration
-Edit `config.ini` for custom settings.
+```bash
+python3 phishing_url_detector.py --url <URL> [--config <CONFIG_FILE>]
